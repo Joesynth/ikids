@@ -1,0 +1,201 @@
+button {
+	width: 9.2em; height: 9em;
+	background-image: url('https://icon-library.com/images/square-icon-png/square-icon-png-15.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	border-radius: 50%;
+	border: none;
+	font-size: .4em;
+	color: greenyellow;
+}
+button:hover {
+	filter: contrast(90%);
+	background-size: 95%; 
+}
+button:active {
+	filter: contrast(66%);
+	background-size: 95%; 
+}
+
+.tit {
+	font-family: sans-serif;
+}
+
+aside {
+	display: flex;
+	justify-content: space-around;
+	//text-align: right;
+	//height: 6%;
+	padding: 5px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	background-color: lightgray;
+}
+header {
+  height: 33%;
+  background-color: lightgreen;
+}
+
+nav {
+	height: 97%;
+	margin-left: 5%; width: 88%; /* mais o espaço que sobra à direita totaliza 100% de largura */
+	border-radius: 1em;
+	background-color: pink;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+.display2 {
+	font-size: 1em;
+}
+
+.display1 {
+	position: absolute;
+	top: 11%;
+}
+
+a { 
+	text-decoration: none; /*remove "sublinhados */
+	
+}
+
+a:link {
+	color: gray;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:active {
+	color: gray;
+}
+
+.bt1 {
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid gray;
+	background-color: white;
+	width: 2.5em;
+	height: 2.5em;
+	margin-bottom: .5em;
+	margin-left: -6.8em;
+	filter: grayscale(100%);
+	opacity: 0.4;
+	transition: 0.5s;
+}
+.bt1:hover {
+	opacity: 1;
+	 	box-shadow: 0 3px 10px gray;
+	filter: grayscale(0%);
+}
+
+.display3 {					/* botão IKIDS */
+	position: relative;
+	margin-top: 79%;
+	margin-left: -69%;
+}
+
+#b0 {					/* botão IKIDS */
+	position: relative;
+	margin-top: -77%;
+	margin-left: 9%;
+}
+
+#b1 {					/* botão IKIDS */
+	position: relative;
+	margin-top: 11%;
+	margin-left: 1%;
+}
+#b2 {
+	position: relative;
+	margin-top: 10%;
+	margin-left: 0%;
+}
+
+#b3 {						/* botão ART */
+	position: relative;
+	margin-top: -11%;
+	margin-left: 28%;
+}
+
+#b4 { 					/* botão TI */
+	position: relative;
+	margin-top: -80%;
+	margin-left: 82%;
+}
+
+#b5 {							/* botão TI 2 */
+	position: relative;
+	margin-top: 17%;
+	margin-left: 84%;
+}
+
+#b6 {							/* botão TI 2 */
+	position: relative;
+	margin-top: 15%;
+	margin-left: 75%;
+}
+
+
+p {
+	text-align: center;
+	font-family: monospace;
+	margin-top: 10px;
+	position: absolute;
+}
+
+#p6 {
+	margin-left: 33%; 
+}
+
+#p5 {
+	font-size: 6em;
+	margin-left: 30%;
+	margin-top: -30%
+}
+
+
+
+main {
+	background-color: lightgreen;
+	width: 100vw;
+	height: 100vh;
+	border: 2px solid green;
+}
+
+span {
+	//font-size: 1.5em;	
+}
+
+.menu {
+	font-size: .5em;
+	text-transform: uppercase;
+}
+
+#secao {
+  //background-color: green;
+  border-radius: 1em;
+  padding: 5px;
+  margin-left: 5%; width: 88%; /* mais o espaço que sobra à direita totaliza 100% de largura */
+  margin-top: 5%
+}
+section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+ 
+img {
+	height: 24px;
+}
+
+@media (min-width: 600px) {
+	body {
+		background: blue;
+		}
+}
